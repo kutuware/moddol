@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('HelveticaNeueLTStd-Roman.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Bold';
+    src: url('HelveticaNeueLTStd-XBlkCn.otf') format('opentype');
+}
+
+$helvetica: "Helvetica Neue", sans-serif;
+$helvetica-bold: "Helvetica Neue Bold", sans-serif;
+
 :root {
     height: 100%;
     display: flex;
@@ -13,7 +26,7 @@ body {
     background-color: #000;
     overflow-x: hidden;
     color: #000;
-    font-family: "Work Sans", sans-serif;
+    font-family: $helvetica;
     width: 100%;
     height: 100vh;
     cursor: none;
