@@ -11,7 +11,8 @@
 
 body {
   overflow-x: hidden;
-  color: #000;
+  background: #24292e;
+  color: #fff;
   width: 100%;
   height: 100vh;
 }
@@ -35,9 +36,8 @@ body {
           flex-direction: column;
 }
 
-#main #fight {
-  width: 100%;
-  height: 320px;
+#main #json {
+  width: 50%;
   margin: 0 auto;
 }
 
